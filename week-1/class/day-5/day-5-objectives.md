@@ -76,3 +76,28 @@ Today's Agenda
 9. Workshop cont.
 10. Recap and Q&A
 11. Survey
+
+
+What did you learn today?
+
+1. Conditionals
+   1. if statements
+   2. if
+   3. else if
+   4. else
+2. Comparrision Operators
+   1. == 
+   2. || OR
+   3. && AND
+   4. <
+   5. >
+   6. .equals() - for Strings
+   7. .equalsIgnoreCase()
+3. methods are functions
+   1. Repeatable block of code
+   2. return statements
+   3. public static dataType methodName() {}
+   4. void for non returning methods
+4. .toLowerCase()
+5. .toUpperCase()
+6. DRY method - don't repeat yourself
