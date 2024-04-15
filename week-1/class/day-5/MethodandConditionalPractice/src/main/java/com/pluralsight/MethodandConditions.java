@@ -12,18 +12,17 @@ public class MethodandConditions {
         Scanner keyboard = new Scanner(System.in);
 
         int addResult = add(5, 5);
-//        String surname = acceptNames("surname", keyboard);
-//        String firstName = acceptNames("first name", keyboard);
-//        String lastName = acceptNames("last name", keyboard);
-//        String suffix = acceptNames("suffix", keyboard);
-//
-//        String fullName = fullNameGen(surname, firstName, lastName, suffix);
+        String surname = acceptNames("surname", keyboard);
+        String firstName = acceptNames("first name", keyboard);
+        String lastName = acceptNames("last name", keyboard);
+        String suffix = acceptNames("suffix", keyboard);
+
+        String fullName = fullNameGen(surname, firstName, lastName, suffix);
 
 
         //DRY - Don't Repeat Yourself
-
-//        System.out.println("Result: " + addResult);
-//        System.out.println("Name: " + fullName);
+        System.out.println("Result: " + addResult);
+        System.out.println("Name: " + fullName);
 
         /**
          * Conditionals
