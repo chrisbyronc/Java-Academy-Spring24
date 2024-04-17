@@ -5,8 +5,8 @@ public class Person {
     private String favorite_color;
     private int age;
 
-    public Person(String name, int age) {
-        this.name = name;
+    public Person() {
+        this.name = "";
         this.age = age;
     }
 
