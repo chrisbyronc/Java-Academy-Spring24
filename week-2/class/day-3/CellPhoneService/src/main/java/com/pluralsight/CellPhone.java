@@ -1,6 +1,8 @@
 package com.pluralsight;
 
 public class CellPhone {
+
+    //default access modifier = private
     private int serialNumber;
     private String model, carrier, phoneNumber, owner;
 
@@ -10,6 +12,10 @@ public class CellPhone {
         this.carrier = "";
         this.phoneNumber = "";
         this.owner = "";
+    }
+
+    public void getTurtleSerialNumber() {
+        System.out.println(this.serialNumber + "turtle");
     }
 
     public int getSerialNumber() {
@@ -49,6 +55,8 @@ public class CellPhone {
     }
 
     public void setOwner(String owner) {
-        this.owner = owner;
+        this.owner = "turtle " + owner;
     }
+
+
 }

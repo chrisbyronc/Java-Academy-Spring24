@@ -6,6 +6,7 @@ public class CellPhoneApplication {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         CellPhone phone = new CellPhone();
+        //instance of a class, is an object
 
         System.out.println("Welcome to your Cell Phone Service!");
 
