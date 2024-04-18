@@ -11,34 +11,34 @@ public class MainApp {
         int count = 0;
         boolean checker = true;
 
-//        do {
-//            System.out.println("Our current count is: " + count);
-//            count++;
-//
-//            if(count > 5) {
-//                checker = false;
-//            }
-//        } while(checker);
-//
-//        while(checker) {
-//            System.out.println("Our current count is: " + count);
-//            count++;
-//
-//            if(count > 5) {
-//                checker = false;
-//            }
-//        }
-//
-//
-//        while(count < 10) {
-//            count+=2;
-//            System.out.println(count);
-//        }
-//
-//        do {
-//            System.out.println(count);
-//            count++;
-//        } while (count < 4);
+        do {
+            System.out.println("Our current count is: " + count);
+            count++;
+
+            if(count > 5) {
+                checker = false;
+            }
+        } while(checker);
+
+        while(checker) {
+            System.out.println("Our current count is: " + count);
+            count++;
+
+            if(count > 5) {
+                checker = false;
+            }
+        }
+
+
+        while(count < 10) {
+            count+=2;
+            System.out.println(count);
+        }
+
+        do {
+            System.out.println(count);
+            count++;
+        } while (count < 4);
 
         /**
          * for loops!
