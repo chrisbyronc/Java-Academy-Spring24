@@ -34,3 +34,17 @@ Today's Agenda
 7. Break
 8. Arrays
 9. Recap and Q&A
+
+What did you learn today?
+
+1. loops
+   1. for - loops for iteration
+      1. for(variable definition, starter iterator value; condition; increment/decrement value)
+   2. while - run while condition is true
+   3. do while - run at least once, continue while condition is true
+   4. NO INFINITE LOOPS
+2. arrays - collection of value
+   1. int[] arrayName = {intVal1, intVal2}
+   2. 0 based index system
+   3. fixed length
+   4. .length - returns length of array
