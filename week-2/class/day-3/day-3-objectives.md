@@ -45,3 +45,18 @@ Today's Agenda
 8. Break
 9. Classes cont.
 10. Recap and Q&A
+
+What did you learn today?
+
+1. Classes - classifying/categorize data
+   1. constructor method - constucts the instance of the class, may provide values for property, may accept values for properties
+   2. getters - gets property value
+   3. setters - sets property value
+   4. properties
+      1. variables of a class, attributes
+   5. this
+   6. new - instantiates class
+      1. Cellphone phone1 = new Cellphone()
+   7. default access modifier - private
+   8. public/private - access modifier
+2. Object - instance of a class

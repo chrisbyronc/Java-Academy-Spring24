@@ -11,6 +11,10 @@ public class Animal {
         this.age = age;
     }
 
+    public String getType() {
+        return this.type;
+    }
+
     public void communicate() {
         System.out.println(this.name + " says Hello");
     }
