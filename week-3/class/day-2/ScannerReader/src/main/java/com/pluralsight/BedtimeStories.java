@@ -8,7 +8,7 @@ public class BedtimeStories {
 
     public static void main(String[] args) {
 
-        do {
+        while(true) {
             Scanner keyboard = new Scanner(System.in);
             System.out.println("Enter the name of a story: goldilocks.txt,  hansel_and_gretel.txt, or mary_had_a_little_lamb.txt");
             System.out.println("Or type exit to close program");
@@ -23,12 +23,11 @@ public class BedtimeStories {
                 case "exit":
                     keyboard.close();
                     System.exit(0);
-                    break;
                 default:
                     System.out.println("Incorrect file name entered");
             }
-            
-        } while(true);
+
+        }
     }
 
     public static void storyReader(String filename) {
