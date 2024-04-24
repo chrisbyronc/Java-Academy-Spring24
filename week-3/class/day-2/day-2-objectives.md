@@ -34,3 +34,23 @@ Today's Agenda
 9. Break
 10. File writing
 11. Recap and Q&A
+
+
+
+What did you learn today?
+
+1. Incrementing/decrementing ++ or --
+   1. Can be either before or after
+   2. EX. i++ or ++i
+2. != - not equals
+3. .printStackTrace()
+   1. where the error occured, entire trace of events
+4. FileInputStream - File to stream/load
+5. new Scanner(FileInputStream)
+6. .nextLine - to read file input line
+7. continue; - starts loop back over (continues)
+8. break; - breaks/exits loop/block
+9. try/catch
+   1. try, code to try
+   2. catch, handling exception
+10. I/O - input / output
