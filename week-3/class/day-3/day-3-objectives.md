@@ -33,3 +33,15 @@ Today's Agenda
 7. Break
 8. Date basics
 9. Recap and Q&A
+
+
+What did you learn today?
+
+1. FileReader
+2. FileWriter
+3. BufferedReader - better for memory
+4. BufferedWriter - better for memory
+5. LocalDate.parse() yyyy-mm-dd
+6. LocalTime.parse() hh:mm:ss
+7. LocalDateTime.parse() - date and time yyyy-mm-dd hh:mm:ss
+8. LocalDateFormatter() - change date format
