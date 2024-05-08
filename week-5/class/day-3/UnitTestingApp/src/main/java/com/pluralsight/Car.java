@@ -1,14 +1,13 @@
 package com.pluralsight;
 
 public class Car {
-
-    private String manufacturer, model;
-
+    private String manufacture, model;
     private int speed;
 
-    public Car(String manufacturer, String model) {
-        this.manufacturer = manufacturer;
+    public Car(String manufacture, String model) {
+        this.manufacture = manufacture;
         this.model = model;
+        this.speed = 80;
     }
 
     public void accelerate(int speed) {
@@ -16,6 +15,6 @@ public class Car {
     }
 
     public int getSpeed() {
-        return speed;
+        return this.speed;
     }
 }
