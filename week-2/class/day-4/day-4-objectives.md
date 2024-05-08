@@ -45,6 +45,7 @@ What did you learn today?
    4. NO INFINITE LOOPS
 2. arrays - collection of value
    1. int[] arrayName = {intVal1, intVal2}
-   2. 0 based index system
-   3. fixed length
-   4. .length - returns length of array
+   2. String[] name= new String[5]
+   3. 0 based index system
+   4. fixed length
+   5. .length - returns length of array
