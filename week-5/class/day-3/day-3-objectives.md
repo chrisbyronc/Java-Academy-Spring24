@@ -24,3 +24,21 @@ Agenda Today
 7. Break
 8. Static
 9. Recap and Q&A
+
+
+What did you learn today?
+
+1. Quality Assurance - QA - OUR TESTERS
+2. Testing Code
+   1. E2E - end to end
+      1. tests entirety of code, application, and integrations
+   2. Integration Testing
+      1. testing interactions between classes and integrations
+   3. Unit Testing
+      1. Testing block of code
+      2. arrange
+         1. arranging the code
+      3. act
+         1. action to test
+      4. assert
+         1. affirming expected result
