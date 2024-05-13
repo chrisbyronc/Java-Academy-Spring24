@@ -163,3 +163,10 @@
 
   * https://www.freecodecamp.org/news/what-is-a-fullstack-developer/
   * https://www.codecademy.com/resources/blog/how-to-become-a-full-stack-developer/
+
+
+## Project Management
+
+  * https://www.atlassian.com/work-management/project-management/principles
+  * https://www.atlassian.com/agile/scrum
+  * https://kaizen.com/what-is-kaizen/
