@@ -170,3 +170,11 @@
   * https://www.atlassian.com/work-management/project-management/principles
   * https://www.atlassian.com/agile/scrum
   * https://kaizen.com/what-is-kaizen/
+
+
+## Robotics
+
+  * https://builtin.com/robotics
+  * https://www.allhomerobotics.com/best-robotic-kits-beginners-getting-started-robotics/
+  * https://www.learnrobotics.org/blog/learn-robotics-guide/
+  * Remember that robotics is a large field, that requires both hardware and software knowledge. Building interactions a robot will have, involved programming different sensors and motors and combining their efforts to achieve an expected outcome. 
