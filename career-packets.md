@@ -146,8 +146,10 @@
 ## Game development
 
   * https://unity.com/
+  * https://www.unrealengine.com/en-US
   * https://www.w3schools.com/graphics/game_intro.asp
   * https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript
+  * https://www.boot.dev/tracks/backend
   * Learn C#, golang, python, or a number of different frameworks. Java can be used as well
 
 
