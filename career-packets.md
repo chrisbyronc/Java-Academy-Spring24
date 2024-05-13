@@ -157,3 +157,9 @@
   * Stay up-to-date https://deepmind.google/discover/blog/ or https://www.deeplearning.ai/the-batch/ or https://www.technologyreview.com/topic/artificial-intelligence/
   * https://www.amazon.com/gp/product/1617293709/
   * https://www.amazon.com/gp/product/1617295914/
+
+
+## Full-Stack Development
+
+  * https://www.freecodecamp.org/news/what-is-a-fullstack-developer/
+  * https://www.codecademy.com/resources/blog/how-to-become-a-full-stack-developer/
