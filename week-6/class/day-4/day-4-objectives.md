@@ -27,3 +27,12 @@ Today's Agenda
 10. Break
 11. codewars, start workshop
 12. 3:30pm end, Recap and Q&A
+
+
+What did you learn today?
+
+1. private v protected access specifier
+2. abstract classes
+3. abstract methods
+   1. no default required, functionality set in inherited classes
+   2. @Override needed for inherited class method definition
