@@ -25,3 +25,11 @@ Today's Agenda
 12. Break
 13. Codewars
 14. Recap and Q&A
+
+
+What did you learn today?
+
+1. generics - any data type
+   1. <T> - syntax for generic definition
+   2. <T extends Class> - set restriction for possible types
+2. data transformation
