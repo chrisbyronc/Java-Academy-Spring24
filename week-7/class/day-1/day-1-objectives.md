@@ -24,3 +24,9 @@ Today's Agenda
 9. Break
 10. Generics introductions
 11. Recap and Q&A
+
+
+What did you learn today?
+
+1. interfaces - a collection of abstract methods
+   1. uses implements to implement interfaces
