@@ -9,24 +9,29 @@ public class App
     public static void main( String[] args )
     {
 
-        String url = "jdbc:mysql://127.0.0.1:3306/northwind";
+        String url = "jdbc:mysql://localhost:3306/northwind";
         String username = "root";
         String password = args[0];
+
+        String query = "SELECT * FROM Products WHERE ProductName LIKE ?";
 
         try {
             Connection connection;
             connection = DriverManager.getConnection(url, username, password);
+            PreparedStatement statement = connection.prepareStatement(query);
 
-            Statement statement = connection.createStatement();
+            String userSearch = "a";
 
-            String query = "SELECT ProductName FROM Products";
+            statement.setString(1, "'" + userSearch + "%'");
 
-            ResultSet results = statement.executeQuery(query);
+            ResultSet results = statement.executeQuery();
 
             while(results.next()) {
-                System.out.println(results.getString(1));
+                System.out.println(results.getString("ProductName"));
             }
 
+            results.close();
+            statement.close();
             connection.close();
 
 
