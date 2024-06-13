@@ -44,3 +44,15 @@ Today's Agenda
 13. PreparedStatements demo
 14. Exercise
 15. Recap and Q&A
+
+What did you learn today?
+
+1. JDBC - java database connectivity
+   1. Statements
+   2. PreparedStatements
+2. Passing variables with CLI args or environment variables
+3. Adding dependencies
+4. Logging
+5. Maven Archetypes
+6. localhost:mySQLDBport = 127.0.0.1:3306
+7. SQL Injection

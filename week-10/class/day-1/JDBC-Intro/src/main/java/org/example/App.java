@@ -13,7 +13,7 @@ public class App
         String username = "root";
         String password = args[0];
 
-        String query = "SELECT * FROM Products WHERE ProductName LIKE ?";
+        String query = "SELECT * FROM Products WHERE ProductName LIKE ? OR ProductID = ?";
 
         try {
             Connection connection;
@@ -22,7 +22,8 @@ public class App
 
             String userSearch = "a";
 
-            statement.setString(1, "'" + userSearch + "%'");
+            statement.setString(1, userSearch);
+            statement.setInt(2, 100);
 
             ResultSet results = statement.executeQuery();
 
