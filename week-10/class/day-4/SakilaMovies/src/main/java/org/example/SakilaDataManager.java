@@ -20,9 +20,6 @@ public class SakilaDataManager {
         List<Actor> actors = new ArrayList<>();
         String sql = "SELECT * FROM actor";
 
-
-
-
        return actors;
     }
     public List<Actor> getActorByLastName(String lastname) {
