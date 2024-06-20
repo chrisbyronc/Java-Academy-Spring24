@@ -78,7 +78,6 @@ public class ProductDAOImpl implements ProductDAO {
 
         try(Connection connection = dataSource.getConnection();){
             PreparedStatement statement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-            System.out.println(product.getProductName());
             statement.setString(1, product.getProductName());
             statement.setInt(2, product.getCategoryId());
             statement.setString(3, product.getQuantityPerUnit());
@@ -98,6 +97,46 @@ public class ProductDAOImpl implements ProductDAO {
             System.out.println(e);
         }
         return res;
+    }
+
+    @Override
+    public int updateProduct(int id, Product product) {
+        int res = 0;
+
+        String sql = "UPDATE Products SET ProductName = ?, CategoryID = ?, QuantityPerUnit = ?, UnitsInStock = ?, UnitsOnOrder = ?, UnitPrice = ? WHERE ProductID = ?";
+
+        try(Connection connection = dataSource.getConnection();){
+            PreparedStatement statement = connection.prepareStatement(sql);
+
+            statement.setString(1, product.getProductName());
+            statement.setInt(2, product.getCategoryId());
+            statement.setString(3, product.getQuantityPerUnit());
+            statement.setInt(4, product.getUnitsInStock());
+            statement.setInt(5, product.getUnitsOnOrder());
+            statement.setFloat(6, product.getUnitPrice());
+            statement.setInt(7, id);
+            res = statement.executeUpdate();
+        }
+        catch (SQLException e){
+            System.out.println(e);
+        }
+        return res;
+    }
+
+    @Override
+    public boolean deleteProduct(int id) {
+        String sql = "DELETE FROM Products WHERE ProductID = ?";
+
+        try(Connection connection = dataSource.getConnection();){
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setInt(1, id);
+            statement.execute();
+            return true;
+        }
+        catch (SQLException e){
+            System.out.println(e);
+        }
+        return false;
     }
 
 }

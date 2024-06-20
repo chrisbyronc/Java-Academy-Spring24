@@ -40,14 +40,12 @@ public class ProductController {
 
     @RequestMapping(path="/products/{id}", method=RequestMethod.PUT)
     public int updateProduct(@PathVariable int id, @RequestBody Product product) {
-//        return productService.updateProduct(id, product);
-        return 0;
+        return productService.updateProduct(id, product);
     }
 
     @RequestMapping(path="/products/{id}", method=RequestMethod.DELETE)
-    public int deleteProduct(@PathVariable int id) {
-//        return productService.updateProduct(id, product);
-        return 0;
+    public boolean deleteProduct(@PathVariable int id) {
+        return productService.deleteProduct(id);
     }
 
 }

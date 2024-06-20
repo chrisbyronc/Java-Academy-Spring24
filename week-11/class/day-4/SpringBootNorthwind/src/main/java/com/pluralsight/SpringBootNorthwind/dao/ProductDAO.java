@@ -16,4 +16,8 @@ public interface ProductDAO {
 
     int addProduct(Product product);
 
+    int updateProduct(int id, Product product);
+
+    boolean deleteProduct(int id);
+
 }

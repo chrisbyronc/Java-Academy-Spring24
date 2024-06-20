@@ -30,7 +30,13 @@ public class ProductService {
         return productDAO.addProduct(product);
     }
 
+    public int updateProduct(int id, Product product) {
+        return productDAO.updateProduct(id, product);
+    }
 
+    public boolean deleteProduct(int id) {
+        return productDAO.deleteProduct(id);
+    }
 
 
     public static Product generateProduct(ResultSet rs) throws SQLException {
