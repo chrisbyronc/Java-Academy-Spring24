@@ -19,6 +19,6 @@ public class NorthwindApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println(productService.getAllProducts());
+//        System.out.println(productService.getAllProducts());
     }
 }

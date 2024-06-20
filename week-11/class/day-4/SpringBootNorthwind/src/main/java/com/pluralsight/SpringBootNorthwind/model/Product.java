@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Product {
 
-    private int productID, unitsInStock, unitsInOrder, categoryId;
+    private int productID, unitsInStock, unitsOnOrder, categoryId;
     private String productName, quantityPerUnit;
     private float unitPrice;
 
@@ -30,12 +30,12 @@ public class Product {
         this.unitsInStock = unitsInStock;
     }
 
-    public int getUnitsInOrder() {
-        return unitsInOrder;
+    public int getUnitsOnOrder() {
+        return unitsOnOrder;
     }
 
-    public void setUnitsInOrder(int unitsInOrder) {
-        this.unitsInOrder = unitsInOrder;
+    public void setUnitsInOrder(int unitsOnOrder) {
+        this.unitsOnOrder = unitsOnOrder;
     }
 
     public int getCategoryId() {

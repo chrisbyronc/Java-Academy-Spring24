@@ -71,3 +71,7 @@ Agenda Today
 14. Recap and Q&A
 
 
+What did you learn today?
+
+1. Sending a POST/PUT request requires @RequestBody
+2. JSON format, typical request body

@@ -1,23 +1,26 @@
 package com.pluralsight.SpringBootNorthwind.config;
 
-import com.pluralsight.SpringBootNorthwind.dao.ProductDAO;
-import com.pluralsight.SpringBootNorthwind.dao.ProductDAOImpl;
+import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import javax.sql.DataSource;
 
 @Configuration
 public class AppConfig {
 
-    @Value("${datasource.username}")
-    private String username;
-
-    @Value("${datasource.password}")
-    private String password;
+    private BasicDataSource basicDataSource;
 
     @Bean
-    public ProductDAO productDAO() {
-        return new ProductDAOImpl(username, password);
+    public DataSource dataSource(){
+        return basicDataSource;
+    }
+
+    public AppConfig(@Value("${datasource.url}") String url, @Value("${datasource.username}") String username, @Value("${datasource.password}") String password) {
+        basicDataSource = new BasicDataSource();
+        basicDataSource.setUrl(url);
+        basicDataSource.setUsername(username);
+        basicDataSource.setPassword("        ");
     }
 
 }
