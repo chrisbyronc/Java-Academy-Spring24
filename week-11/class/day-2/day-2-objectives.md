@@ -42,3 +42,17 @@ Today's Agenda
 10. Break
 11. You build REST API
 12. Recap and Q&A
+
+
+What did you learn today?
+
+1. API's
+2. model-view-controller or mvc pattern
+3. REST api
+4. @RequestMapping
+5. postman is super browser agent
+6. Request methods
+   1. GET - READ of crud
+7. index path
+8. request params ?key=value&key2=value2
+
